@@ -56,6 +56,8 @@ raymon_per = format(raymon_per,".3f")
 
 #Get winner
 winner = [charles_per,diana_per,raymon_per]
+#This line was taken from URL
+#https://www.tutorialspoint.com/python/list_max.htm
 max_per = max(winner)
 winner_index = winner.index(max_per)
 winner = candidate_list[winner_index]
